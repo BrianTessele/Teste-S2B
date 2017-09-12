@@ -7,21 +7,20 @@ public class App
     {
     	
     	 Scanner entrada = new Scanner(System.in);
-         double a;
-         double b;
-         
+       
          System.out.println("Digite o valor de a: ");
-         a = entrada.nextDouble();
-         
+         double a = entrada.nextDouble();
          System.out.println("Digite o valor de b: ");
-         b = entrada.nextDouble();
+         double b = entrada.nextDouble();
          entrada.close();
-    	double r = Sum.sum(a, b);
+         
+         double r = Sum.sum(a, b);
     	
     	System.out.printf("A= %f\n",a);
     	System.out.printf("B= %f\n",b);
     	System.out.printf("Resposta= %f\n", r);
-    	
+    
+    
       
     } 
 }
