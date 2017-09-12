@@ -11,10 +11,10 @@ public class App
          double b;
          
          System.out.println("Digite o valor de a: ");
-         a = entrada.nextInt();
+         a = entrada.nextDouble();
          
          System.out.println("Digite o valor de b: ");
-         b = entrada.nextInt();
+         b = entrada.nextDouble();
 
     	double r = Sum.sum(a, b);
     	
