@@ -1,13 +1,23 @@
 package s2b.tst.sum;
-
+import java.util.Scanner;
 
 public class App 
 {
     public static void main( String[] args )
     {
-    	double a = 10;
-    	double b = 20;
+    	
+    	 Scanner entrada = new Scanner(System.in);
+         double a;
+         double b;
+         
+         System.out.println("Digite o valor de a: ");
+         a = entrada.nextInt();
+         
+         System.out.println("Digite o valor de b: ");
+         b = entrada.nextInt();
+
     	double r = Sum.sum(a, b);
+    	
     	System.out.printf("A= %f\n",a);
     	System.out.printf("B= %f\n",b);
     	System.out.printf("Resposta= %f\n", r);
