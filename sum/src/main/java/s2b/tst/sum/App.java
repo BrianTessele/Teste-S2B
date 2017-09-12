@@ -15,7 +15,7 @@ public class App
          
          System.out.println("Digite o valor de b: ");
          b = entrada.nextDouble();
-
+         entrada.close();
     	double r = Sum.sum(a, b);
     	
     	System.out.printf("A= %f\n",a);
