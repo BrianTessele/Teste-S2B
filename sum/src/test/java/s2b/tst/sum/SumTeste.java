@@ -6,6 +6,8 @@ import org.junit.Test;
 
 public class SumTeste {
 	
+	    
+	
 	
 	@Test(expected=IllegalArgumentException.class)// Especifica uma Expected que o Testador está esperando;
 	public void testFirstNumberIsNegativeGiveException() {
